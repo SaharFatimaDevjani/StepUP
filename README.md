@@ -18,7 +18,6 @@ Open the `index.html` file directly in your web browser to view the site locally
 
 ## 🚀 Key Features
 
-- Responsive layout optimized for desktops, tablets, and mobiles  
 - Smooth scrolling navigation  
 - Interactive UI components with JavaScript  
 - Clean, semantic HTML5 markup  
@@ -36,7 +35,8 @@ Open the `index.html` file directly in your web browser to view the site locally
 
 ## 🔗 Live Demo & Code
 
-**Live Demo:** [Add your live demo link here if available]  
+**Live Demo:** https://saharfatimadevjani.github.io/StepUP/ 
+
 **GitHub Repository:** https://github.com/SaharFatimaDevjani/StepUP
 
 ---
