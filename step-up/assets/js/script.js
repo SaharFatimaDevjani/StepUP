@@ -9,7 +9,16 @@ jQuery(document).ready(function($){
          dots:true,
          arrows:false
       });
-      $(window).scroll(function() {    
+      // mobile menu toggle
+      $('.nav-toggle').click(function(){
+          var open = $('.nav-bar').toggleClass('nav-open').hasClass('nav-open');
+          $(this).attr('aria-expanded', open);
+      });
+      $('.nav-a').click(function(){
+          $('.nav-bar').removeClass('nav-open');
+          $('.nav-toggle').attr('aria-expanded', false);
+      });
+      $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
      //>=, not <=
